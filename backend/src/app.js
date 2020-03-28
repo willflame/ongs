@@ -42,6 +42,4 @@ app.use(errors());
   */
 
 
-app.listen(3333, function() {
-    console.log("servidor rodando");
-  });
+module.exports = app;
